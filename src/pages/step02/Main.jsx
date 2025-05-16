@@ -12,6 +12,10 @@ import IfExam01 from "../step06/IfExam01";
 import IfExam02List from "../step06/IfExam02List";
 import TextList1 from "../step07/TextList1";
 import TextList2 from "../step07/TextList2";
+import Event01 from "../step08/Event01";
+import Event02 from "../step08/Event02";
+import Event03 from "../step08/Event03";
+import Event04 from "../step08/Event04";
 import Counter from "./Counter";
 
 function Main(props){
@@ -33,8 +37,11 @@ function Main(props){
             <IfExam01 />
             <IfExam02List />
             <TextList1 />
-            <hr />
             <TextList2 />
+            <Event01 />
+            <Event02 />
+            <Event03 />
+            <Event04 />
         </main>
     );
 };
