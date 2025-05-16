@@ -10,6 +10,8 @@ import ReduceComment from "../step05/ReduceComment";
 import SomeEveryCheck from "../step05/SomeEveryCheck";
 import IfExam01 from "../step06/IfExam01";
 import IfExam02List from "../step06/IfExam02List";
+import TextList1 from "../step07/TextList1";
+import TextList2 from "../step07/TextList2";
 import Counter from "./Counter";
 
 function Main(props){
@@ -30,6 +32,9 @@ function Main(props){
             <SomeEveryCheck />
             <IfExam01 />
             <IfExam02List />
+            <TextList1 />
+            <hr />
+            <TextList2 />
         </main>
     );
 };
