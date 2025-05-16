@@ -8,6 +8,8 @@ import FindAdminComment from "../step05/FindAdminComment";
 import FindAdminComment2 from "../step05/FindAdminComment2";
 import ReduceComment from "../step05/ReduceComment";
 import SomeEveryCheck from "../step05/SomeEveryCheck";
+import IfExam01 from "../step06/IfExam01";
+import IfExam02List from "../step06/IfExam02List";
 import Counter from "./Counter";
 
 function Main(props){
@@ -26,6 +28,8 @@ function Main(props){
             <FindAdminComment2 />
             <ReduceComment />
             <SomeEveryCheck />
+            <IfExam01 />
+            <IfExam02List />
         </main>
     );
 };
