@@ -4,6 +4,10 @@ import Profile from "../step03/Profile";
 import CommentList from "../step04/CommentList";
 import FilteredCommandList2 from "../step05/FilteredCommandList2";
 import FilteredCommandList from "../step05/FilteredCommentList";
+import FindAdminComment from "../step05/FindAdminComment";
+import FindAdminComment2 from "../step05/FindAdminComment2";
+import ReduceComment from "../step05/ReduceComment";
+import SomeEveryCheck from "../step05/SomeEveryCheck";
 import Counter from "./Counter";
 
 function Main(props){
@@ -18,6 +22,10 @@ function Main(props){
             <CommentList />
             <FilteredCommandList />
             <FilteredCommandList2 />
+            <FindAdminComment />
+            <FindAdminComment2 />
+            <ReduceComment />
+            <SomeEveryCheck />
         </main>
     );
 };
