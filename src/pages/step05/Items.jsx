@@ -3,7 +3,7 @@ export default function Items(props){
         <>
             <ul>
                 <li>이름 : {props.name}</li>                
-                <li>내용 : {props.coment}</li>                
+                <li>내용 : {props.comment}</li>                
             </ul>
         </>
     );
