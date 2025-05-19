@@ -21,6 +21,9 @@ import InputExam from "../step09/InputExam";
 import CountEx2 from "../step10/CountEx2";
 import CountEx3 from "../step10/CountEx3";
 import CountEx4 from "../step10/CountEx4";
+import CountEx5 from "../step10/CountEx5";
+import ProfileEx from "../step11/ProfileEx";
+import TempEx from "../step12/TempEx";
 import Counter from "./Counter";
 
 function Main(props){
@@ -51,6 +54,9 @@ function Main(props){
             <CountEx2 />
             <CountEx3 />
             <CountEx4 />
+            <CountEx5 />
+            <ProfileEx />
+            <TempEx />
         </main>
     );
 };
