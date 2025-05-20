@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Page from "../step20/Page";
-import { ThemeContext } from "./ThemeContext";
+import { ThemeContext } from "./ThemeContest";
 import './ContextText.css'
 
 export default function ContextTest(){
