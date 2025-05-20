@@ -1,22 +1,15 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Menu from './pages/step23/Menu';
+
 
 function App() {
   return (
-    <>
-    {/* 
-      <Header />
-      <NumberCount />
-      <Hello />
-      <hr />
-      <Main />
-      <hr />
-      <Footer />
-       */}
-      {/* <ContextEx /> */}
-      {/* <ContextTest /> */}
-      {/* <UseReducerEx /> */}
-      {/*<UseReducerEx2 />*/}
-    </>
+    <div>
+      <BrowserRouter>
+        <Menu />
+      </BrowserRouter>
+    </div>
   );
 }
 
