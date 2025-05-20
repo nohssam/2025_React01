@@ -24,7 +24,7 @@ export default function RefEx05(){
             <input type="text"            
                    placeholder="userName"
                    ref={inputRef}
-                   onKeyDown={handleKeyDown}  // 키이벤트
+                   onKeyDown={handleKeyDown}  // 키 이벤트
             />
             <button onClick={handleCheckName}>이름확인</button>
         </div>
