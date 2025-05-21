@@ -17,6 +17,15 @@ export default function Menu(){
                 <li className="lineStyle">
                     <Link to="/third">세번째</Link>
                 </li> 
+                <li className="lineStyle">
+                    <Link to="/fetchEx01">온도-1</Link>
+                </li> 
+                <li className="lineStyle">
+                    <Link to="/fetchEx02">온도-2</Link>
+                </li> 
+                <li className="lineStyle">
+                    <Link to="/fetchEx03">온도-3</Link>
+                </li> 
             </ul>
        </nav> 
     )

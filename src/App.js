@@ -1,5 +1,6 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import FethEx01 from './pages/step24/FetchEx01';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/step23/Home';
 import First from './pages/step23/First';
 import Second from './pages/step23/Second';
@@ -7,6 +8,8 @@ import Menu from './pages/step23/Menu';
 import Third from './pages/step23/Third';
 import { useState } from 'react';
 import Fourth from './pages/step23/Fourth';
+import FetchEx02 from './pages/step24/FetchEx02';
+import FetchEx03 from './pages/step24/FetchEx03';
 
 function App() {
   const [data, setData] = useState([
@@ -27,8 +30,13 @@ function App() {
             <Route path="/second" element={<Second msg="환영합니다."/>} />
             <Route path="/third" element={<Third data={data}/> } />
             <Route path="/fourth/:idx/:name" element={<Fourth data={data}/> } />
+            <Route path="/fetchEx01" element={<FethEx01 /> } />
+            <Route path="/fetchEx02" element={<FetchEx02 /> } />
+            <Route path="/fetchEx03" element={<FetchEx03 /> } />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> 
+      
+
     </div>
   );
 }
