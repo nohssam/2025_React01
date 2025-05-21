@@ -1,16 +1,23 @@
 import { Link } from "react-router-dom";
+import './Menu.css'
 
 export default function Menu(){
     return(
-       <nav>
-        <ul>
-            <li>
-                <Link>홈</Link>
-            </li>
-            <li><Link>첫번째</Link></li> 
-            <li><Link>두번째</Link></li>  
-            <li><Link>세번째</Link></li> 
-        </ul>
+       <nav className="nav">
+            <ul>
+                <li className="lineStyle">
+                    <Link to="/">홈</Link>
+                </li>
+                <li className="lineStyle">
+                    <Link to="/first">첫번째</Link>
+                </li> 
+                <li className="lineStyle">
+                    <Link to="/second">두번째</Link>
+                </li>  
+                <li className="lineStyle">
+                    <Link to="/third">세번째</Link>
+                </li> 
+            </ul>
        </nav> 
     )
 }
