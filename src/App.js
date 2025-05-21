@@ -11,6 +11,8 @@ import Fourth from './pages/step23/Fourth';
 import FetchEx02 from './pages/step24/FetchEx02';
 import FetchEx03 from './pages/step24/FetchEx03';
 import MovieList from './pages/step25/MovieList';
+import MovieList2 from './pages/step26/MovieList';
+import MovieDetail from './pages/step26/MovieDetail';
 
 function App() {
   const [data, setData] = useState([
@@ -35,6 +37,8 @@ function App() {
             <Route path="/fetchEx02" element={<FetchEx02 /> } />
             <Route path="/fetchEx03" element={<FetchEx03 /> } />
             <Route path="/movielist" element={<MovieList /> } />
+            <Route path="/movielist2" element={<MovieList2 /> } />
+            <Route path="/detail/:id" element={<MovieDetail /> } />
         </Routes>
       </BrowserRouter> 
       

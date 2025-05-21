@@ -29,6 +29,9 @@ export default function Menu(){
                 <li className="lineStyle">
                     <Link to="/movielist">movieList</Link>
                 </li> 
+                <li className="lineStyle">
+                    <Link to="/movielist2">movieList2</Link>
+                </li> 
             </ul>
        </nav> 
     )
