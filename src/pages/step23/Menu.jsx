@@ -26,6 +26,9 @@ export default function Menu(){
                 <li className="lineStyle">
                     <Link to="/fetchEx03">온도-3</Link>
                 </li> 
+                <li className="lineStyle">
+                    <Link to="/movielist">movieList</Link>
+                </li> 
             </ul>
        </nav> 
     )
